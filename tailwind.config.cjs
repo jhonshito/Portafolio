@@ -10,7 +10,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        "moradito" : "#7F47EF"
+        "moradito" : "#7F47EF",
+        "dark" : "#00051de8",
+        "azulito" : "#D9EDF7",
+        "azul" : "#3A87AD"
       }
     },
   },
