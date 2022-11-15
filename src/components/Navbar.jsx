@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
+import DescargaCv from "./DescargaCv";
 
 const Navbar = () => {
 
@@ -35,6 +36,7 @@ const Navbar = () => {
         {/* <a className=" transition-all duration-300 hover:text-moradito" href=""></a> */}
         <a className="transition hover:-translate-y-1 hover:scale-100 duration-300 hover:text-moradito"  href="">Blog</a>
         <a className="transition hover:-translate-y-1 hover:scale-100 duration-300 hover:text-moradito"  href="">Proyectos</a>
+        <DescargaCv />
       </nav>
 
       <div className="mr-2 sm:mr-5 md:mr-8 lg:mr-16">

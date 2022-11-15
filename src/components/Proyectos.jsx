@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react'
+import proOne from "../img/active-states-basket-filled.jpg"
 
 const Proyectos = () => {
 
@@ -38,6 +39,18 @@ const Proyectos = () => {
                 Diseño web
             </button>
         </div>
+
+            <article>
+                <div className='w-80 border-2 h-40 rounded-2xl bg-gradient-to-r from-orange-primary to-piel bg-opacity-100 relative'>
+                    <div className='w-80'>
+                        <img className='h-[120px] mt-4 w-[260px] mx-auto shadow-2xl shadow-orange-primaryo' src={proOne} alt="Esta es la imagen del proyecto uno" />
+                    </div>
+                    <div className='hover:bg-transparente group w-80 h-40 rounded-2xl absolute  hover:border-transparente peer top-0 hover:backdrop-opacity-0 shadow-2xl hover:animate__animated hover:animate__fadeInUp'>
+                        <h4 className='hidden group-hover:block text-center text-2xl font-bold text-dark mt-4'>E-commerce</h4>
+                        <p></p>
+                    </div>
+                </div>
+            </article>
     </section>
   )
 }

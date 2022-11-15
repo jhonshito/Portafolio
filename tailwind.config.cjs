@@ -16,7 +16,10 @@ module.exports = {
         "azul" : "#3A87AD",
         "neo" : "#1f53c5",
         "nuevoNeo" : "#24303c",
-        "opacidad" : "#E1E6E8"
+        "opacidad" : "#E1E6E8",
+        "piel" : "#E6C089",
+        "orange-primary" : "#D66515",
+        "transparente" : "rgba(227, 232, 234, .75)"
       }
     },
   },
