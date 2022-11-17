@@ -6,7 +6,7 @@ import Inicio from './components/Inicio'
 import Navbar from './components/Navbar'
 import Proyectos from './components/Proyectos'
 
-// import Swal from 'sweetalert2'
+import Swal from 'sweetalert2'
 
 const App = () => {
 
