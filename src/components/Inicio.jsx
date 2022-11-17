@@ -7,7 +7,7 @@ const Inicio = () => {
     const corcheteOne = '{'
     const corcheteTwo = '}'
   return (
-    <div className="mt-10 container mx-auto lg:flex">
+    <div id="inicio" className="mt-10 container mx-auto lg:flex">
         <div className="lg:ml-24">
         <img className="w-40 h-40 mx-auto rounded-full" src={fotoPortafolio} alt="Esta es mi foto" />
         <div className="flex mt-10 text-2xl font-bold justify-center items-center lg:justify-start">
