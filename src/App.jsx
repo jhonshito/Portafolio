@@ -13,7 +13,7 @@ const App = () => {
   useEffect(() => {
     Swal.fire({
       icon: "info",
-      title: "Información inportante",
+      title: "Información importante",
       text: "Hola querido ❤ visitante. me gustaria informarte que el propietario de este sitio web actualmente se encuentra trabajando en el si te gustaria ver lo que lleva  dale OK"
     })
   },[])

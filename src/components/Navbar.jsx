@@ -6,6 +6,7 @@ import DescargaCv from "./DescargaCv";
 const Navbar = () => {
 
   const [ocultar, setOcultar] = useState('hidden');
+  const [sobreMi, setSobreMi] = useState('')
 
   const handleOpen = () => {
     setOcultar('');
@@ -14,6 +15,28 @@ const Navbar = () => {
   const handleOcultar = () => {
     setOcultar('hidden');
   };
+
+  const handleSobreMi = (dato) => {
+
+    switch(dato){
+      case '#inicio':
+        setSobreMi(dato)
+      break;
+
+      case '#descripcion':
+        setSobreMi(dato)
+      break;
+
+      case '#habilidades':
+        setSobreMi(dato)
+      break;
+
+      case '#proyectos':
+        setSobreMi(dato)
+      break;
+    }
+    setOcultar('hidden')
+  }
 
     const corcheteOne = '<'
     const corcheteTwo = '/>'
@@ -29,13 +52,13 @@ const Navbar = () => {
         <button className="w-12 mx-auto mt-40 h-12 bg-moradito rounded-3xl" onClick={handleOcultar}>
           <AiOutlineClose className="mx-auto text-2xl" />
         </button>
-        <a className="transition hover:-translate-y-1 hover:scale-100 duration-300 hover:text-moradito" href="#inicio">Inicio</a>
-        <a href="#descripcion" className="transition hover:-translate-y-1 hover:scale-100 duration-300 hover:text-moradito">
+        <a onClick={() => handleSobreMi('#inicio')} className="transition hover:-translate-y-1 hover:scale-100 duration-300 hover:text-moradito" href={sobreMi}>Inicio</a>
+        <a onClick={() => handleSobreMi('#descripcion')} href={sobreMi} className="transition hover:-translate-y-1 hover:scale-100 duration-300 hover:text-moradito">
           Sobre mi
         </a>
         {/* <a className=" transition-all duration-300 hover:text-moradito" href=""></a> */}
-        <a className="transition hover:-translate-y-1 hover:scale-100 duration-300 hover:text-moradito"  href="#habilidades">Habilidades</a>
-        <a className="transition hover:-translate-y-1 hover:scale-100 duration-300 hover:text-moradito"  href="#proyectos">Proyectos</a>
+        <a onClick={() => handleSobreMi('#habilidades')} className="transition hover:-translate-y-1 hover:scale-100 duration-300 hover:text-moradito"  href={sobreMi}>Habilidades</a>
+        <a onClick={() => handleSobreMi('#proyectos')} className="transition hover:-translate-y-1 hover:scale-100 duration-300 hover:text-moradito"  href={sobreMi}>Proyectos</a>
         <DescargaCv />
       </nav>
 

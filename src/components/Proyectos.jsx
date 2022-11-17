@@ -5,7 +5,7 @@ import { BsBoxArrowUpRight, BsGithub } from "react-icons/bs";
 
 const Proyectos = () => {
 
-    const [todo, setTodo] = useState('');
+    const [todo, setTodo] = useState('bg-cyan-400 text-white');
     const [apis, setApis] = useState('');
     const [web, setWeb] = useState('');
     const handleTodo = () => {
@@ -66,6 +66,7 @@ const Proyectos = () => {
                                 </a>
                             </div>
                             <p className='w-40 border-2 border-dark mx-auto mt-6 lg:w-0 lg:border-none'></p>
+                            <p className='mb-20 mt-6'>mañana estaran disponible mas proyectos</p>
                         </div>
                     </div>
                 </div>
