@@ -44,7 +44,7 @@ const Navbar = () => {
     <header className='flex items-center mt-6 justify-between mb-40'>
       <div className='flex ml-2 sm:ml-5 md:ml-8 lg:ml-16'>
         <h1 className='text-2xl text-moradito font-bold'>{corcheteOne}Jhon</h1>
-        <span className='text-black text-2xl font-bold'>shito</span>
+        <span className='text-black text-2xl font-bold'>sito</span>
         <span className='text-moradito text-2xl font-bold'>{corcheteTwo}</span>
       </div>
 
