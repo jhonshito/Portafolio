@@ -19,7 +19,11 @@ module.exports = {
         "opacidad" : "#E1E6E8",
         "piel" : "#E6C089",
         "orange-primary" : "#D66515",
-        "transparente" : "rgba(227, 232, 234, .75)"
+        "transparente" : "rgba(227, 232, 234, .75)",
+        "country" : "#202C37",
+        "newCountry" : "#2B3945",
+        "colorTodo" : "#3D1E9B",
+        "colorNewTodo" : "#6A1A7D"
       }
     },
   },

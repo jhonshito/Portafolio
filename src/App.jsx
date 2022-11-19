@@ -18,7 +18,7 @@ const App = () => {
     })
   },[])
   return (
-    <div className='container mx-auto'>
+    <div>
         <Navbar />
         <Inicio />
         <Descripcion />
