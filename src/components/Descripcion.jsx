@@ -3,7 +3,8 @@ import { FaFacebookSquare, FaGithub, FaInstagramSquare } from "react-icons/fa";
 
 const Descripcion = () => {
   return (
-    <div id="descripcion" className='ml-3 mr-3 mb-20 border-l-8 border-azul bg-azulito py-10 animate__animated animate__fadeInUp md:ml-10 lg:w-[80%] lg:mt-20 lg:mx-auto xl:mt-20 drop-shadow-xl'>
+    <section id="descripcion" className="pt-32">
+    <div className='ml-3 mr-3 mb-20 border-l-8 border-azul bg-azulito py-10 animate__animated animate__fadeInUp md:ml-10 lg:w-[80%] lg:mt-20 lg:mx-auto xl:mt-20 drop-shadow-xl'>
       <div className='ml-5'>
         <h1 className='text-4xl mb-3 font-bold text-azul'>Sobre mi</h1>
         <p className="w-36 bg-moradito border-2 border-azul mt-2 mb-3"></p>
@@ -33,6 +34,7 @@ const Descripcion = () => {
         </div>
       </div>
     </div>
+    </section>
   )
 }
 

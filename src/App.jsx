@@ -21,15 +21,34 @@ const App = () => {
     })
   },[])
 
+  if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark')
+  } else {
+    document.documentElement.classList.remove('dark')
+  }
+  
+  // Whenever the user explicitly chooses light mode
+  localStorage.theme = 'light'
+  
+  // Whenever the user explicitly chooses dark mode
+  localStorage.theme = 'dark'
+  
+  // Whenever the user explicitly chooses to respect the OS preference
+  localStorage.removeItem('theme')
+
+  const handleDark = () => {
+    document.documentElement.classList.toggle('dark')
+  }
+
   return (
-    <div>
+    <div className='dark:bg-dark'>
         <Navbar />
         <Inicio />
         <Descripcion />
         <Habilidades />
         <Proyectos />
 
-        <footer className='bg-dark lg:h-64 h-80 relative dark:bg-azul mt-40'>
+        <footer className='bg-dark lg:h-64 h-80 relative mt-40'>
           <h2 className='text-white text-5xl pt-10 font-bold text-center'>Formas de Contactarme</h2>
           <div className='flex justify-center mt-8 items-center gap-4 text-5xl'>
           <a className="peer" href="https://www.facebook.com/jhon.caicedo.127/" target='_blank'>
@@ -51,7 +70,7 @@ const App = () => {
             <p>Que viva software (siiiiiiiiii)😘</p>
           </div>
         </footer>
-        <button className='w-16 z-50 h-16 grid justify-center bg-moradito fixed bottom-64 right-0 mb-5 mr-2 rounded-full'>
+        <button onClick={handleDark} className='w-16 z-50 h-16 grid justify-center bg-moradito fixed bottom-64 right-0 mb-5 mr-2 rounded-full'>
           <GiEvilMoon className='mt-2 text-5xl' />
         </button>
     </div>
