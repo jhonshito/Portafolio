@@ -67,7 +67,7 @@ const App = () => {
 
           <div className='lg:flex text-white text-lg grid text-center mt-4 lg:justify-evenly'>
             <p className=''>2022 Jhon Caicedo @Creador❤😍👩🏾‍💻😜</p>
-            <p>Que viva software (siiiiiiiiii)😘</p>
+            <p>Que viva el desarrollo de software (siiiiiiiiii)😘</p>
           </div>
         </footer>
         <button onClick={handleDark} className='w-16 z-50 h-16 grid justify-center bg-moradito fixed bottom-64 right-0 mb-5 mr-2 rounded-full'>
