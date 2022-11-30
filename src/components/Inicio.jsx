@@ -2,6 +2,7 @@
 import fotoPortafolio from "../img/fotoPortafoli.jpg"
 import 'animate.css';
 import { AiFillHeart } from "react-icons/ai";
+import "../styles/inicio.css"
 
 const Inicio = () => {
     const corcheteOne = '{'
@@ -16,7 +17,7 @@ const Inicio = () => {
             <h2 className="text-moradito">Soy Jhon Caicedo</h2>
             <span className="dark:text-white">{corcheteTwo}</span>
         </div>
-        <h2 className="text-4xl text-dark font-bold text-center mt-7 md:text-5xl lg:text-left dark:text-white">Frontend Developer.</h2>
+        <h2 id="habilidad" className="text-4xl text-dark font-bold text-center mt-7 md:text-5xl lg:text-left dark:text-white">Frontend Developer.</h2>
         <div className="lg:text-left">
           <p className="text-center mt-6 font-bold dark:text-white">Apasionado por el mundo del Desarrollo de Software.😍😜<AiFillHeart className="animate__animated animate__heartBeat animate__infinite infinite w-12 mx-auto mt-6 text-3xl" /></p>
         </div>

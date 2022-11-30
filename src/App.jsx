@@ -13,13 +13,13 @@ import Swal from 'sweetalert2'
 
 const App = () => {
 
-  useEffect(() => {
-    Swal.fire({
-      icon: "info",
-      title: "Información importante",
-      text: "Hola querido ❤ visitante. me gustaria informarte que el propietario de este sitio web actualmente se encuentra trabajando en el si te gustaria ver lo que lleva  dale OK"
-    })
-  },[])
+  // useEffect(() => {
+  //   Swal.fire({
+  //     icon: "info",
+  //     title: "Información importante",
+  //     text: "Hola querido ❤ visitante. me gustaria informarte que el propietario de este sitio web actualmente se encuentra trabajando en el si te gustaria ver lo que lleva  dale OK"
+  //   })
+  // },[])
 
   if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     document.documentElement.classList.add('dark')
