@@ -70,7 +70,7 @@ const App = () => {
             <p>Que viva el desarrollo de software (siiiiiiiiii)😘</p>
           </div>
         </footer>
-        <button onClick={handleDark} className='w-16 z-50 h-16 grid justify-center bg-moradito fixed bottom-64 right-0 mb-5 mr-2 rounded-full'>
+        <button onClick={handleDark} className='w-16 z-50 h-16 grid justify-center md:bg-moradito fixed bottom-64 right-0 mb-5 mr-2 rounded-full'>
           <GiEvilMoon className='mt-2 text-5xl' />
         </button>
     </div>

@@ -94,13 +94,13 @@ const Proyectos = () => {
                             <img className={`h-[10rem] mt-4 w-[300px] mx-auto shadow-2xl ${filtro.sombraColor[index]}`} src={item} alt="Esta es la imagen del proyecto uno" />
                         </div>
                         <div className='lg:bg-transparent mt-10 lg:mt-0 lg:hover:bg-transparente group w-80 rounded-none lg:w-96 h-[12rem] lg:rounded-2xl static lg:absolute  hover:border-transparente peer top-0 hover:backdrop-opacity-0 shadow-none lg:shadow-2xl hover:animate__animated hover:animate__fadeInUp'>
-                            <div className='block lg:hidden group-hover:block animate__animated animate__jackInTheBox mt-16 lg:mt-0'>
+                            <div className='block lg:hidden group-hover:block animate__animated animate__zoomIn mt-16 lg:mt-0'>
                                 <h4 className='text-center text-2xl font-bold text-dark mt-4 dark:text-white lg:dark:text-dark'>{filtro.name[index]}</h4>
                                 <p className='w-12 mt-2 border-[1px] border-dark mx-auto'></p>
-                                <div className='flex justify-center gap-2 text-lg font-medium animate__animated animate__jackInTheBox mt-4 lg:mt-3'>
+                                <div className='flex justify-center gap-2 text-lg font-medium animate__animated animate__zoomIn mt-4 lg:mt-3'>
                                     <span className='dark:text-white text-center lg:dark:text-dark'>{filtro.tecnologiaOne[index]}</span>
                                 </div>
-                                <div className='flex justify-center gap-2 animate__animated animate__jackInTheBox mt-6 lg:mt-4'>
+                                <div className='flex justify-center gap-2 animate__animated animate__zoomIn mt-6 lg:mt-4'>
                                     <a href={filtro.sitio[index]} target='_blank' className='lg:border-[2px] rounded-lg lg:border-dark w-32 justify-center flex hover:bg-dark hover:text-white py-1 items-center gap-2 font-semibold bg-dark lg:bg-transparent text-white lg:text-dark border-[0px]'>
                                         <BsBoxArrowUpRight />
                                         Ver Pagina
@@ -121,7 +121,7 @@ const Proyectos = () => {
 
             </article>
 
-                <p className='mb-20 mt-6 text-center text-lg font-bold dark:text-white'>mañana estaran disponible mas contenido</p>
+                {/* <p className='mb-20 mt-6 text-center text-lg font-bold dark:text-white'>mañana estaran disponible mas contenido</p> */}
     </section>
   )
 }
