@@ -25,7 +25,9 @@ module.exports = {
         "newCountry" : "#2B3945",
         "colorTodo" : "#3D1E9B",
         "colorNewTodo" : "#6A1A7D",
-        "form" : "#FF7A7A"
+        "form" : "#FF7A7A",
+        "nuevo" : "#C5E4E7",
+        "darkNuevo" : "#00494D"
       }
     },
   },

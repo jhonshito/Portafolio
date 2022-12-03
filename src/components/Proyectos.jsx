@@ -5,6 +5,7 @@ import proTwo from "../img/desktop-design-home-dark.jpg"
 import proThree from "../img/active-states-dark.jpg"
 import proFour from "../img/desktop-design.jpg"
 import proFive from "../img/anime-trailer.png"
+import proSix from "../img/desktop-design-completed.jpg"
 import { BsBoxArrowUpRight, BsGithub } from "react-icons/bs";
 
 const Proyectos = () => {
@@ -38,13 +39,13 @@ const Proyectos = () => {
 
     const [objecto, setObjecto] = useState({
         todos : {
-            img : [proOne, proTwo, proThree, proFour, proFive],
-            name : ['E-commerce', 'Country-Api', 'Todo-list', 'Diseño-de-formulario', 'Anime-Trailer'],
-            colorFondo : ['bg-gradient-to-r from-orange-primary to-piel', 'bg-gradient-to-r from-country to-newCountry', 'bg-gradient-to-r from-colorTodo to-colorNewTodo', 'bg-gradient-to-r from-form to-form', 'bg-gradient-to-r from-black to-black'],
-            sombraColor : ['shadow-piel', 'shadow-newCountry', 'shadow-colorNewTodo', 'shadow-form', 'shadow-azul'],
-            sitio : ['https://e-commerce-jhon.netlify.app', 'https://country-apis-jhon.netlify.app', 'https://todo-app-jhon.netlify.app', 'https://formulario-jhon.netlify.app', 'https://anime-trailer.netlify.app/'],
-            repositorio : ['https://github.com/jhonshito/New-ecommer-with-react-and-vite', 'https://github.com/jhonshito/country-api', 'https://github.com/jhonshito/frontEnd-todo-mentor', 'https://github.com/jhonshito/Dise-o-de-formulario', 'https://github.com/jhonshito/anime-api'],
-            tecnologiaOne : ['React - Tailwind', 'Reac - CSS3', 'React - CSS3', 'HTML5 - JavaScript - CSS3', 'React - Tailwind'],
+            img : [proOne, proTwo, proThree, proFour, proFive, proSix],
+            name : ['E-commerce', 'Country-Api', 'Todo-list', 'Diseño-de-formulario', 'Anime-Trailer', 'Tip-descuentos'],
+            colorFondo : ['bg-gradient-to-r from-orange-primary to-piel', 'bg-gradient-to-r from-country to-newCountry', 'bg-gradient-to-r from-colorTodo to-colorNewTodo', 'bg-gradient-to-r from-form to-form', 'bg-gradient-to-r from-black to-black', 'bg-gradient-to-r from-darkNuevo to-nuevo'],
+            sombraColor : ['shadow-piel', 'shadow-newCountry', 'shadow-colorNewTodo', 'shadow-form', 'shadow-azul', 'shadow-nuevo'],
+            sitio : ['https://e-commerce-jhon.netlify.app', 'https://country-apis-jhon.netlify.app', 'https://todo-app-jhon.netlify.app', 'https://formulario-jhon.netlify.app', 'https://anime-trailer.netlify.app/', 'https://descuentos-jhon.netlify.app'],
+            repositorio : ['https://github.com/jhonshito/New-ecommer-with-react-and-vite', 'https://github.com/jhonshito/country-api', 'https://github.com/jhonshito/frontEnd-todo-mentor', 'https://github.com/jhonshito/Dise-o-de-formulario', 'https://github.com/jhonshito/anime-api', 'https://github.com/jhonshito/app-de-descuentos'],
+            tecnologiaOne : ['React - Tailwind', 'Reac - CSS3', 'React - CSS3', 'HTML5 - JavaScript - CSS3', 'React - Tailwind', 'Aun en Desarrollo'],
         },
         apis : {
             img : [proTwo, proFive],
@@ -56,13 +57,13 @@ const Proyectos = () => {
             tecnologiaOne : ['React - CSS3', 'React - Tailwind'],
         },
         web : {
-            img : [proOne, proThree, proFour],
-            name : ['E-commerce', 'Todo-list', 'Diseño-de-formulario'],
-            colorFondo : ['bg-gradient-to-r from-orange-primary to-piel', 'bg-gradient-to-r from-colorTodo to-colorNewTodo', 'bg-gradient-to-r from-form to-form'],
-            sombraColor : ['shadow-piel', 'shadow-colorNewTodo', 'shadow-form'],
-            sitio : ['https://e-commerce-jhon.netlify.app', 'https://todo-app-jhon.netlify.app', 'https://formulario-jhon.netlify.app'],
-            repositorio : ['https://github.com/jhonshito/New-ecommer-with-react-and-vite', 'https://github.com/jhonshito/frontEnd-todo-mentor', 'https://github.com/jhonshito/Dise-o-de-formulario'],
-            tecnologiaOne : ['React - Tailwind', 'React - CSS3', 'JavaScript - CSS3'],
+            img : [proOne, proThree, proFour, proSix],
+            name : ['E-commerce', 'Todo-list', 'Diseño-de-formulario', 'Tip-descuentos'],
+            colorFondo : ['bg-gradient-to-r from-orange-primary to-piel', 'bg-gradient-to-r from-colorTodo to-colorNewTodo', 'bg-gradient-to-r from-form to-form', 'bg-gradient-to-r from-darkNuevo to-nuevo'],
+            sombraColor : ['shadow-piel', 'shadow-colorNewTodo', 'shadow-form', 'shadow-nuevo'],
+            sitio : ['https://e-commerce-jhon.netlify.app', 'https://todo-app-jhon.netlify.app', 'https://formulario-jhon.netlify.app', 'https://descuentos-jhon.netlify.app'],
+            repositorio : ['https://github.com/jhonshito/New-ecommer-with-react-and-vite', 'https://github.com/jhonshito/frontEnd-todo-mentor', 'https://github.com/jhonshito/Dise-o-de-formulario', 'https://github.com/jhonshito/app-de-descuentos'],
+            tecnologiaOne : ['React - Tailwind', 'React - CSS3', 'JavaScript - CSS3', 'Aun en Desarrollo'],
         }
     })
 
