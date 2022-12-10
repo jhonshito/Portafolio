@@ -6,10 +6,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {
-      'Kumbh Sans': 'Kumbh Sans',
-    },
     extend: {
+      fontFamily: {
+        'Kumbh Sans': 'Kumbh Sans',
+        'Old' : 'Old Standard',
+        'Rubik' : 'Rubik Gemstones',
+        'Shi' : 'Esteban'
+      },
       colors: {
         "moradito" : "#7F47EF",
         "dark" : "#00051de8",

@@ -16,7 +16,7 @@ const Habilidades = () => {
 
   return (
     <section id="habilidades" className="mb-10 animate__animated animate__fadeInUp lg:container lg:mx-auto pt-32">
-      <h1 className="text-4xl text-center font-bold uppercase text-dark dark:text-white">Habilidades</h1>
+      <h1 className="text-4xl text-center font-bold uppercase text-dark dark:text-white font-Rubik">Habilidades</h1>
       <p className="text-center font-semibold text-xl mt-2 text-dark dark:text-white">Tecnologícas</p>
       <p className="w-28 bg-moradito border-2 border-moradito mx-auto mb-12 mt-4"></p>
       <div className="flex flex-wrap gap-5 mt-7 border-1 border-dark p-4 justify-center drop-shadow-xl bg-dark">

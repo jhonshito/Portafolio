@@ -41,7 +41,7 @@ const App = () => {
   }
 
   return (
-    <div className='dark:bg-dark'>
+    <div className='dark:bg-dark font-Shi'>
         <Navbar />
         <Inicio />
         <Descripcion />
@@ -49,7 +49,7 @@ const App = () => {
         <Proyectos />
 
         <footer className='bg-dark lg:h-64 h-80 relative mt-40'>
-          <h2 className='text-white text-5xl pt-10 font-bold text-center'>Formas de Contactarme</h2>
+          <h2 className='text-white text-5xl pt-10 font-bold text-center font-Rubik'>Formas de Contactarme</h2>
           <div className='flex justify-center mt-8 items-center gap-4 text-5xl'>
           <a className="peer" href="https://www.facebook.com/jhon.caicedo.127/" target='_blank'>
             <FaFacebookSquare className="text-blue-600" />

@@ -6,6 +6,8 @@ import proThree from "../img/active-states-dark.jpg"
 import proFour from "../img/desktop-design.jpg"
 import proFive from "../img/anime-trailer.png"
 import proSix from "../img/desktop-design-completed.jpg"
+import proSeven from "../img/freetomage-api.png"
+import proEight from "../img/portafolio-jhon.png";
 import { BsBoxArrowUpRight, BsGithub } from "react-icons/bs";
 
 const Proyectos = () => {
@@ -16,7 +18,7 @@ const Proyectos = () => {
 
     const [filtro, setFiltro] = useState()
     const handleTodo = () => {
-        setTodo('bg-cyan-400 text-white')
+        setTodo('bg-moradito text-white')
         setApis('')
         setWeb('')
         setFiltro(objecto.todos)
@@ -24,13 +26,13 @@ const Proyectos = () => {
 
     const handleApis = () => {
         setTodo('');
-        setApis('bg-cyan-400 text-white')
+        setApis('bg-moradito text-white')
         setWeb('')
         setFiltro(objecto.apis)
     }
 
     const handleWeb = () => {
-        setWeb('bg-cyan-400 text-white')
+        setWeb('bg-moradito text-white')
         setTodo('')
         setApis('')
         setFiltro(objecto.web)
@@ -39,38 +41,38 @@ const Proyectos = () => {
 
     const [objecto, setObjecto] = useState({
         todos : {
-            img : [proOne, proTwo, proThree, proFour, proFive, proSix],
-            name : ['E-commerce', 'Country-Api', 'Todo-list', 'Diseño-de-formulario', 'Anime-Trailer', 'Tip-descuentos'],
-            colorFondo : ['bg-gradient-to-r from-orange-primary to-piel', 'bg-gradient-to-r from-country to-newCountry', 'bg-gradient-to-r from-colorTodo to-colorNewTodo', 'bg-gradient-to-r from-form to-form', 'bg-gradient-to-r from-black to-black', 'bg-gradient-to-r from-darkNuevo to-nuevo'],
-            sombraColor : ['shadow-piel', 'shadow-newCountry', 'shadow-colorNewTodo', 'shadow-form', 'shadow-azul', 'shadow-nuevo'],
-            sitio : ['https://e-commerce-jhon.netlify.app', 'https://country-apis-jhon.netlify.app', 'https://todo-app-jhon.netlify.app', 'https://formulario-jhon.netlify.app', 'https://anime-trailer.netlify.app/', 'https://descuentos-jhon.netlify.app'],
-            repositorio : ['https://github.com/jhonshito/New-ecommer-with-react-and-vite', 'https://github.com/jhonshito/country-api', 'https://github.com/jhonshito/frontEnd-todo-mentor', 'https://github.com/jhonshito/Dise-o-de-formulario', 'https://github.com/jhonshito/anime-api', 'https://github.com/jhonshito/app-de-descuentos'],
-            tecnologiaOne : ['React - Tailwind', 'Reac - CSS3', 'React - CSS3', 'HTML5 - JavaScript - CSS3', 'React - Tailwind', 'Aun en Desarrollo'],
+            img : [proOne, proTwo, proThree, proFour, proFive, proSix, proSeven, proEight],
+            name : ['E-commerce', 'Country-Api', 'Todo-list', 'Diseño-de-formulario', 'Anime-Trailer', 'Tip-descuentos', 'Freetogame-api', 'Portafolio'],
+            colorFondo : ['bg-gradient-to-r from-orange-primary to-piel', 'bg-gradient-to-r from-country to-newCountry', 'bg-gradient-to-r from-colorTodo to-colorNewTodo', 'bg-gradient-to-r from-form to-form', 'bg-gradient-to-r from-black to-black', 'bg-gradient-to-r from-darkNuevo to-nuevo', 'bg-gradient-to-r from-black to-cyan-700', 'bg-gradient-to-r from-dark to-transparente'],
+            sombraColor : ['shadow-piel', 'shadow-newCountry', 'shadow-colorNewTodo', 'shadow-form', 'shadow-azul', 'shadow-nuevo', 'shadow-cyan-700', 'shadow-transparente'],
+            sitio : ['https://e-commerce-jhon.netlify.app', 'https://country-apis-jhon.netlify.app', 'https://todo-app-jhon.netlify.app', 'https://formulario-jhon.netlify.app', 'https://anime-trailer.netlify.app/', 'https://descuentos-jhon.netlify.app', 'https://free-api-12.netlify.app', 'https://portafolio-de-jhon.netlify.app'],
+            repositorio : ['https://github.com/jhonshito/New-ecommer-with-react-and-vite', 'https://github.com/jhonshito/country-api', 'https://github.com/jhonshito/frontEnd-todo-mentor', 'https://github.com/jhonshito/Dise-o-de-formulario', 'https://github.com/jhonshito/anime-api', 'https://github.com/jhonshito/app-de-descuentos', 'https://github.com/jhonshito/next-freetogame-api', 'https://github.com/jhonshito/Portafolio'],
+            tecnologiaOne : ['React - Tailwind', 'Reac - CSS3', 'React - CSS3', 'HTML5 - JavaScript - CSS3', 'React - Tailwind', 'HTML5 - CSS3 - JavaScript', 'Tailwind - React - Next.js', 'Tailwind - Vite.js - React'],
         },
         apis : {
-            img : [proTwo, proFive],
-            name : ['Country-Api', 'Anime-Trailer'],
-            colorFondo : ['bg-gradient-to-r from-country to-newCountry', 'bg-gradient-to-r from-black to-black'],
-            sombraColor : ['shadow-newCountry', 'shadow-azul'],
-            sitio : ['https://country-apis-jhon.netlify.app', 'https://anime-trailer.netlify.app/'],
-            repositorio : ['https://github.com/jhonshito/country-api', 'https://github.com/jhonshito/anime-api'],
-            tecnologiaOne : ['React - CSS3', 'React - Tailwind'],
+            img : [proTwo, proFive, proSeven],
+            name : ['Country-Api', 'Anime-Trailer', 'Freetogame-api'],
+            colorFondo : ['bg-gradient-to-r from-country to-newCountry', 'bg-gradient-to-r from-black to-black', 'bg-gradient-to-r from-black to-cyan-700'],
+            sombraColor : ['shadow-newCountry', 'shadow-azul', 'shadow-cyan-700'],
+            sitio : ['https://country-apis-jhon.netlify.app', 'https://anime-trailer.netlify.app/', 'https://free-api-12.netlify.app'],
+            repositorio : ['https://github.com/jhonshito/country-api', 'https://github.com/jhonshito/anime-api', 'https://github.com/jhonshito/next-freetogame-api'],
+            tecnologiaOne : ['React - CSS3', 'React - Tailwind', 'Tailwind - React - Next.js'],
         },
         web : {
-            img : [proOne, proThree, proFour, proSix],
-            name : ['E-commerce', 'Todo-list', 'Diseño-de-formulario', 'Tip-descuentos'],
-            colorFondo : ['bg-gradient-to-r from-orange-primary to-piel', 'bg-gradient-to-r from-colorTodo to-colorNewTodo', 'bg-gradient-to-r from-form to-form', 'bg-gradient-to-r from-darkNuevo to-nuevo'],
-            sombraColor : ['shadow-piel', 'shadow-colorNewTodo', 'shadow-form', 'shadow-nuevo'],
-            sitio : ['https://e-commerce-jhon.netlify.app', 'https://todo-app-jhon.netlify.app', 'https://formulario-jhon.netlify.app', 'https://descuentos-jhon.netlify.app'],
-            repositorio : ['https://github.com/jhonshito/New-ecommer-with-react-and-vite', 'https://github.com/jhonshito/frontEnd-todo-mentor', 'https://github.com/jhonshito/Dise-o-de-formulario', 'https://github.com/jhonshito/app-de-descuentos'],
-            tecnologiaOne : ['React - Tailwind', 'React - CSS3', 'JavaScript - CSS3', 'Aun en Desarrollo'],
+            img : [proOne, proThree, proFour, proSix, proEight],
+            name : ['E-commerce', 'Todo-list', 'Diseño-de-formulario', 'Tip-descuentos', 'Portafolio'],
+            colorFondo : ['bg-gradient-to-r from-orange-primary to-piel', 'bg-gradient-to-r from-colorTodo to-colorNewTodo', 'bg-gradient-to-r from-form to-form', 'bg-gradient-to-r from-darkNuevo to-nuevo', 'bg-gradient-to-r from-dark to-transparente'],
+            sombraColor : ['shadow-piel', 'shadow-colorNewTodo', 'shadow-form', 'shadow-nuevo', 'shadow-transparente'],
+            sitio : ['https://e-commerce-jhon.netlify.app', 'https://todo-app-jhon.netlify.app', 'https://formulario-jhon.netlify.app', 'https://descuentos-jhon.netlify.app', 'https://portafolio-de-jhon.netlify.app'],
+            repositorio : ['https://github.com/jhonshito/New-ecommer-with-react-and-vite', 'https://github.com/jhonshito/frontEnd-todo-mentor', 'https://github.com/jhonshito/Dise-o-de-formulario', 'https://github.com/jhonshito/app-de-descuentos', 'https://github.com/jhonshito/Portafolio'],
+            tecnologiaOne : ['React - Tailwind', 'React - CSS3', 'JavaScript - CSS3', 'HTML5 - CSS3 - JavaScript', 'Tailwind - Vite.js - React'],
         }
     })
 
 
   return (
-    <section id='proyectos' className='mb-8 animate__animated animate__fadeInUp pt-32'>
-        <h2 className='text-center text-4xl font-bold text-dark uppercase dark:text-white'>Mis proyectos</h2>
+    <section id='proyectos' className='mb-8 animate__animated animate__fadeInUp pt-32 '>
+        <h2 className='text-center text-4xl font-bold text-dark uppercase dark:text-white font-Rubik'>Mis proyectos</h2>
         <p className='w-40 border-2 bg-moradito border-moradito mx-auto my-6'></p>
         <div className='w-1/2 mx-auto flex gap-4 justify-center max-sm:w-full md:w-full'>
             <button onClick={handleTodo} className={`w-24 p-y-1 font-bold text-lg ml-5 rounded-2xl ${todo} dark:text-white`}>
