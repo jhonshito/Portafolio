@@ -40,6 +40,11 @@ const Navbar = () => {
         setSobreMi(dato);
         setMenuOculto('');
       break;
+
+      case '#conctato':
+        setSobreMi(dato);
+        setMenuOculto('');
+      break;
     }
     setOcultar('hidden')
   }
@@ -65,6 +70,8 @@ const Navbar = () => {
         {/* <a className=" transition-all duration-300 hover:text-moradito" href=""></a> */}
         <a onClick={() => handleSobreMi('#habilidades')} className="transition hover:-translate-y-1 hover:scale-100 duration-300 hover:text-moradito"  href={sobreMi}>Habilidades</a>
         <a onClick={() => handleSobreMi('#proyectos')} className="transition hover:-translate-y-1 hover:scale-100 duration-300 hover:text-moradito"  href={sobreMi}>Proyectos</a>
+
+        <a onClick={() => handleSobreMi('#conctato')} className="transition hover:-translate-y-1 hover:scale-100 duration-300 hover:text-moradito"  href={sobreMi}>Conctato</a>
         <DescargaCv />
       </nav>
 
