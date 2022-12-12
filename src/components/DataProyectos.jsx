@@ -22,6 +22,7 @@ const DataProyectos = () => {
             sitio : 'https://country-apis-jhon.netlify.app',
             repositorio : 'https://github.com/jhonshito/country-api',
             tecnologiaOne : 'React - CSS3',
+            border : 'border-country'
         },
 
         {
@@ -33,6 +34,7 @@ const DataProyectos = () => {
             sitio : 'https://e-commerce-jhon.netlify.app',
             repositorio : 'https://github.com/jhonshito/New-ecommer-with-react-and-vite',
             tecnologiaOne : 'React - Tailwind',
+            border : 'border-piel'
         },
 
         {
@@ -44,6 +46,7 @@ const DataProyectos = () => {
             sitio : 'https://todo-app-jhon.netlify.app',
             repositorio : 'https://github.com/jhonshito/frontEnd-todo-mentor',
             tecnologiaOne : 'React - CSS3',
+            border : 'border-colorNewTodo'
         },
 
         {
@@ -55,6 +58,7 @@ const DataProyectos = () => {
             sitio : 'https://formulario-jhon.netlify.app',
             repositorio : 'https://github.com/jhonshito/Dise-o-de-formulario',
             tecnologiaOne : 'HTML5 - JavaScript - CSS3',
+            border : 'border-form'
         },
 
         {
@@ -66,6 +70,7 @@ const DataProyectos = () => {
             sitio : 'https://anime-trailer.netlify.app/',
             repositorio : 'https://github.com/jhonshito/anime-api',
             tecnologiaOne : 'React - Tailwind',
+            border : 'border-black'
         },
 
         {
@@ -77,6 +82,7 @@ const DataProyectos = () => {
             sitio : 'https://descuentos-jhon.netlify.app',
             repositorio : 'https://github.com/jhonshito/app-de-descuentos',
             tecnologiaOne : 'HTML5 - CSS3 - JavaScript',
+            border : 'border-darkNuevo'
         },
 
         {
@@ -88,6 +94,7 @@ const DataProyectos = () => {
             sitio : 'https://free-api-12.netlify.app',
             repositorio : 'https://github.com/jhonshito/next-freetogame-api',
             tecnologiaOne : 'Tailwind - React - Next.js',
+            border : 'border-cyan-700'
         },
 
         {
@@ -99,6 +106,7 @@ const DataProyectos = () => {
             sitio : 'https://portafolio-de-jhon.netlify.app',
             repositorio : 'https://github.com/jhonshito/Portafolio',
             tecnologiaOne : 'Tailwind - Vite.js - React',
+            border : 'border-dark'
         },
     ])
 
