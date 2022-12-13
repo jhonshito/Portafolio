@@ -1,5 +1,6 @@
 
 import { FaFacebookSquare, FaGithub, FaInstagramSquare } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Descripcion = () => {
   return (
@@ -32,6 +33,7 @@ const Descripcion = () => {
           </a>
           <span className="absolute text-sm bottom-10 bg-slate-800 w-24 py-2 font-bold text-center rounded-lg left-5 text-white tracking-wide hidden peer-hover:block animate__animated animate__backInLeft">Instagram</span>
         </div>
+        <Link to='estudios'>estudios</Link>
       </div>
     </div>
     </section>

@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import DescargaCv from "./DescargaCv";
+import { Outlet } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -52,10 +53,11 @@ const Navbar = () => {
     const corcheteOne = '<'
     const corcheteTwo = '/>'
   return (
+    <>
     <header className='flex items-center w-full top-0 py-5 justify-between mb-40 bg-transparente fixed z-50'>
       <div className='flex ml-2 sm:ml-5 md:ml-8 lg:ml-16'>
-        <h1 className='text-2xl text-moradito font-bold'>{corcheteOne}Jhon</h1>
-        <span className='text-black text-2xl font-bold'>sito</span>
+          <h2 className='text-2xl text-moradito font-bold'>{corcheteOne}Jhon</h2>
+          <span className='text-black text-2xl font-bold'>sito</span>
         <span className='text-moradito text-2xl font-bold'>{corcheteTwo}</span>
       </div>
 
@@ -81,6 +83,8 @@ const Navbar = () => {
         </button>
       </div>
     </header>
+      <Outlet />
+    </>
   )
 }
 

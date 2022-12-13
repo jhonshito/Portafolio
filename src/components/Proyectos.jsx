@@ -37,13 +37,13 @@ const Proyectos = ({objecto}) => {
         <h2 className='text-center text-4xl font-bold text-dark uppercase dark:text-white font-Rubik'>Mis proyectos</h2>
         <p className='w-40 border-2 bg-moradito border-moradito mx-auto my-6'></p>
         <div className='w-1/2 mx-auto flex gap-4 justify-center max-sm:w-full md:w-full'>
-            <button onClick={handleTodo} className={`w-24 p-y-1 font-bold text-lg ml-5 rounded-2xl ${todo} dark:text-white  hover:bg-moradito`}>
+            <button onClick={handleTodo} className={`w-24 p-y-1 font-bold text-lg ml-5 rounded-xl ${todo} dark:text-white  hover:bg-moradito hover:text-white`}>
                 Todos
             </button>
-            <button onClick={handleApis} className={`w-24 py-1 font-bold text-lg rounded-2xl ${apis} dark:text-white hover:bg-moradito`}>
+            <button onClick={handleApis} className={`w-24 py-1 font-bold text-lg rounded-xl ${apis} dark:text-white hover:bg-moradito hover:text-white`}>
                 Apis
             </button>
-            <button onClick={handleWeb} className={`w-32 py-1 font-bold text-lg rounded-2xl ${web} mr-5 dark:text-white hover:bg-moradito`}>
+            <button onClick={handleWeb} className={`w-32 py-1 font-bold text-lg rounded-xl ${web} mr-5 dark:text-white hover:bg-moradito hover:text-white`}>
                 Diseño web
             </button>
         </div>

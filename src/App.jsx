@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Descripcion from './components/Descripcion'
 import Habilidades from './components/Habilidades'
 import Inicio from './components/Inicio'
-import Navbar from './components/Navbar'
+// import Navbar from './components/Navbar'
 import { GiEvilMoon } from "react-icons/gi";
 
 import Swal from 'sweetalert2'
@@ -41,7 +41,7 @@ const App = () => {
 
   return (
     <div className='dark:bg-dark font-Shi'>
-        <Navbar />
+        {/* <Navbar /> */}
         <Inicio />
         <Descripcion />
         <Habilidades />
