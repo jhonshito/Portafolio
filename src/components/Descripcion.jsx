@@ -11,7 +11,7 @@ const Descripcion = () => {
         <p className="w-36 bg-moradito border-2 border-azul mt-2 mb-3"></p>
         <p className='font-bold text-md tracking-wide text-azul'>Autodidacta, apasionado en el desarrollo de aplicaciones web 👩🏾‍💻😍 con framework en javascript como ReacJS,  Cuento con la voluntad de aportar mis conocimientos y habierto en aprender màs en este mundo. </p>
       </div>
-      <div className="flex mt-7 text-3xl gap-6 ml-4">
+      <div className="flex mt-7 flex-wrap text-3xl gap-6 ml-4">
 
         <div className="relative">
           <a className="peer" href="https://www.facebook.com/jhon.caicedo.127/" target='_blank'>
@@ -33,7 +33,7 @@ const Descripcion = () => {
           </a>
           <span className="absolute text-sm bottom-10 bg-slate-800 w-24 py-2 font-bold text-center rounded-lg left-5 text-white tracking-wide hidden peer-hover:block animate__animated animate__backInLeft">Instagram</span>
         </div>
-        <Link to='estudios'>estudios</Link>
+        <Link className="text-base uppercase w-40 text-center py-1 rounded-lg bg-gradient-to-r from-dark to-transparente hover:from-darkNuevo hover:to-nuevo font-Rubik text-white tracking-wide hover:text-dark" to='estudios'>estudios</Link>
       </div>
     </div>
     </section>
