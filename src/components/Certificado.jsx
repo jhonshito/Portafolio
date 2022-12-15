@@ -9,6 +9,8 @@ import certificado7 from "../imgCertificados/certificado-javascript-2.jpg"
 import certificado8 from "../imgCertificados/certificado-logica-1.jpg"
 import certificado9 from "../imgCertificados/certificado-logica-2.jpg"
 import certificado10 from "../imgCertificados/certificado-logica-3.jpg"
+import certificado11 from "../imgCertificados/ingles-1_page-0001.jpg"
+import certificado12 from "../imgCertificados/ingles-2_page-0001.jpg"
 import Estudios from "./Estudios"
 const Certificado = () => {
 
@@ -22,10 +24,12 @@ const Certificado = () => {
         certificado7,
         certificado8,
         certificado9,
-        certificado10
+        certificado10,
+        certificado11,
+        certificado12
     ]
   return (
-    <section>
+    <section className="bg-country w-full h-[100vh]">
         <Estudios img={imgCertificados} />
     </section>
   )

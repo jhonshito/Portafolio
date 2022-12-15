@@ -6,17 +6,20 @@ import { Outlet } from "react-router-dom";
 const Navbar = () => {
 
   const [ocultar, setOcultar] = useState('hidden');
-  const [sobreMi, setSobreMi] = useState('')
-  const [menuOculto, setMenuOculto] = useState('')
+  const [animacion, setAnimacion] = useState('');
+  const [sobreMi, setSobreMi] = useState('');
+  const [menuOculto, setMenuOculto] = useState('');
 
   const handleOpen = () => {
     setOcultar('');
     setMenuOculto('hidden')
+    setAnimacion('animate__animated animate__fadeInRight')
   };
 
   const handleOcultar = () => {
-    setOcultar('hidden');
+    setAnimacion('animate__animated animate__fadeOutRight')
     setMenuOculto('')
+    setOcultar('hidden');
   };
 
   const handleSobreMi = (dato) => {
@@ -61,7 +64,7 @@ const Navbar = () => {
         <span className='text-moradito text-2xl font-bold'>{corcheteTwo}</span>
       </div>
 
-      <nav className={`flex flex-col font-bold bg-dark text-white fixed top-0 right-0 w-full h-full text-3xl text-center gap-y-6 sm:w-80 md:w-1/2 md:text-xl lg:w-96 ${ocultar}`}>
+      <nav className={`flex flex-col font-bold bg-dark text-white fixed top-0 right-0 w-full h-full text-3xl text-center gap-y-6 sm:w-80 md:w-1/2 md:text-xl lg:w-96 ${ocultar} ${animacion}`}>
         <button className="w-12 mx-auto mt-40 h-12 bg-moradito rounded-3xl" onClick={handleOcultar}>
           <AiOutlineClose className="mx-auto text-2xl" />
         </button>
