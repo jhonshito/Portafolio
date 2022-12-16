@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.indicadores .glider-dot{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #00051de8;
+    opacity: .2;
+    border-radius: 0px;
+}
+
+.dark .indicadores .glider-dot{
+    background: white;
+}
+
+.indicadores .glider-dot:hover{
+    opacity: .5;
+}
+
+.indicadores .glider-dot.active{
+    opacity: 1;
+}

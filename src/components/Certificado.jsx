@@ -29,7 +29,7 @@ const Certificado = () => {
         certificado12
     ]
   return (
-    <section className="bg-country w-full h-[100vh]">
+    <section className="w-full">
         <Estudios img={imgCertificados} />
     </section>
   )

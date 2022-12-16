@@ -33,7 +33,7 @@ const Proyectos = ({objecto}) => {
 
 
   return (
-    <section id='proyectos' className='mb-8 animate__animated animate__fadeInUp pt-32 '>
+    <section id='proyectos' className='mb-8 pt-32 '>
         <h2 className='text-center text-4xl font-bold text-dark uppercase dark:text-white font-Rubik'>Mis proyectos</h2>
         <p className='w-40 border-2 bg-moradito border-moradito mx-auto my-6'></p>
         <div className='w-1/2 mx-auto flex gap-4 justify-center max-sm:w-full md:w-full'>

@@ -3,12 +3,12 @@ import React, { useEffect, useState } from 'react'
 import Descripcion from './components/Descripcion'
 import Habilidades from './components/Habilidades'
 import Inicio from './components/Inicio'
-// import Navbar from './components/Navbar'
 import { GiEvilMoon } from "react-icons/gi";
 
 import Swal from 'sweetalert2'
 import DataProyectos from './components/DataProyectos'
 import Contacto from './components/Contacto'
+import Certificado from './components/Certificado'
 
 const App = () => {
 
@@ -41,15 +41,17 @@ const App = () => {
 
   return (
     <div className='dark:bg-dark font-Shi'>
-        {/* <Navbar /> */}
-        <Inicio />
-        <Descripcion />
-        <Habilidades />
-        <DataProyectos />
-        <Contacto />
-        <button onClick={handleDark} className='w-16 z-50 h-16 grid justify-center md:bg-moradito fixed bottom-64 right-0 mb-5 mr-2 rounded-full'>
-          <GiEvilMoon className='mt-2 text-5xl' />
-        </button>
+        <div className=' animate__animated animate__fadeInUp'>
+          <Inicio />
+          <Certificado />
+          <Descripcion />
+          <Habilidades />
+          <DataProyectos />
+          <Contacto />
+        </div>
+          <button onClick={handleDark} className='w-16 z-50 h-16 grid justify-center md:bg-moradito fixed bottom-64 right-0 mb-5 mr-2 rounded-full'>
+            <GiEvilMoon className='mt-2 text-5xl' />
+          </button>
     </div>
   )
 }
