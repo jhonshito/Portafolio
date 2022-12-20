@@ -56,8 +56,8 @@ const Estudios = ({ img }) => {
         },{
           breakpoint: 1024,
           settings: {
-            slidesToShow: 4,
-            slidesToScroll: 4,
+            slidesToShow: 2,
+            slidesToScroll: 2,
             itemWidth: 150,
             duration: 0.25
           }
@@ -66,10 +66,9 @@ const Estudios = ({ img }) => {
     })
   },[])
 
-  console.log(img)
   return (
     <div className='relative w-[80%] mx-auto mt-20'>
-      <h2 className='text-center mb-6 text-5xl font-bold dark:text-white mr-4 text-dark font-Rubik tracking-wide'>Certificados</h2>
+      <h2 className='text-center mb-6 text-4xl font-bold dark:text-white text-dark font-Rubik tracking-wide'>Certificados</h2>
       <p className='text-center mx-2 text-xl dark:text-white text-dark mb-6 font-Old'>En esta sección encontraras los certificados 👩🏾‍💻⬇ que he obtenido durante todo mi proceso😍😘 de formación ❤</p>  
             <div className='lista w-full truncate'>
               {
@@ -80,7 +79,7 @@ const Estudios = ({ img }) => {
                 ))
               }
             </div>
-            <div className='absolute top-[60%] md:top-[60%] lg:top-[60%] w-full z-10 flex justify-between items-center'>
+            <div className='absolute top-[60%] md:top-[60%] lg:top-[55%] w-full z-10 flex justify-between items-center'>
               <button aria-label='Anterior' className='anterior -ml-7 dark:hover:text-white hover:text-dark text-2xl dark:text-transparente'>
               <FaChevronLeft/>
               </button>

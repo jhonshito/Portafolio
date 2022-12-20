@@ -13,13 +13,15 @@ const Navbar = () => {
   const handleOpen = () => {
     setOcultar('');
     setMenuOculto('hidden')
-    setAnimacion('animate__animated animate__fadeInRight')
+    setAnimacion('animate__animated animate__fadeInTopRight')
   };
 
   const handleOcultar = () => {
-    setAnimacion('animate__animated animate__fadeOutRight')
+    setTimeout(function(){
+      setOcultar('hidden');
+    },300)
+    setAnimacion('animate__animated animate__fadeOutTopRight')
     setMenuOculto('')
-    setOcultar('hidden');
   };
 
   const handleSobreMi = (dato) => {
