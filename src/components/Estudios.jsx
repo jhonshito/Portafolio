@@ -68,7 +68,7 @@ const Estudios = ({ img }) => {
 
   return (
     <div className='relative w-[80%] mx-auto mt-20'>
-      <h2 className='text-center mb-6 text-4xl font-bold dark:text-white text-dark font-Rubik tracking-wide'>Certificados</h2>
+      <h2 className='text-center mb-6 text-4xl font-bold dark:text-white text-dark font-Rubik tracking-wide uppercase'>Certificados</h2>
       <p className='text-center mx-2 text-xl dark:text-white text-dark mb-6 font-Old'>En esta sección encontraras los certificados 👩🏾‍💻⬇ que he obtenido durante todo mi proceso😍😘 de formación ❤</p>  
             <div className='lista w-full truncate'>
               {
