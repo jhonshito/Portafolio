@@ -10,7 +10,7 @@ module.exports = {
       fontFamily: {
         'Kumbh Sans': 'Kumbh Sans',
         'Old' : 'Old Standard',
-        'Rubik' : 'Rubik Gemstones',
+        'Rubik' : 'Oswald',
         'Shi' : 'Esteban'
       },
       colors: {
