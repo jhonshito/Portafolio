@@ -8,6 +8,7 @@ import proFive from "../img/anime-trailer.png"
 import proSix from "../img/desktop-design-completed.jpg"
 import proSeven from "../img/freetomage-api.png"
 import proEight from "../img/portafolio-jhon.png";
+import proNine from "../img/viajes.png"
 import { useState } from "react"
 
 const DataProyectos = () => {
@@ -108,6 +109,18 @@ const DataProyectos = () => {
             tecnologiaOne : 'Tailwind - Vite.js - React',
             border : 'border-dark'
         },
+
+        {
+            type: 'web',
+            img : proNine,
+            name : 'Web Viajes',
+            colorFondo : 'bg-gradient-to-r from-via to-dark',
+            sombraColor : 'shadow-transparente',
+            sitio : 'https://viajes-jhon.netlify.app',
+            repositorio : 'https://github.com/jhonshito/pruaba-frontend-02',
+            tecnologiaOne : 'HTML5 - CSS3 - JavaScript - Glider.js - Google-Analitycs',
+            border : 'border-via'
+        }
     ])
 
 

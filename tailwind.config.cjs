@@ -30,7 +30,8 @@ module.exports = {
         "colorNewTodo" : "#6A1A7D",
         "form" : "#FF7A7A",
         "nuevo" : "#C5E4E7",
-        "darkNuevo" : "#00494D"
+        "darkNuevo" : "#00494D",
+        'via' : "#314652"
       }
     },
   },

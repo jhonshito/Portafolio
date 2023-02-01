@@ -9,7 +9,7 @@ const Descripcion = () => {
       <div className='ml-5'>
         <h1 className='text-4xl mb-3 font-bold text-azul font-Rubik'>Sobre mi</h1>
         <p className="w-36 bg-moradito border-2 border-azul mt-2 mb-3"></p>
-        <p className='font-bold text-md tracking-wide text-azul'>Autodidacta, apasionado en el desarrollo de aplicaciones web 👩🏾‍💻😍 con framework en javascript como ReacJS,  Cuento con la voluntad de aportar mis conocimientos y habierto en aprender màs en este mundo. </p>
+        <p className='font-bold text-md tracking-wide text-azul'>Apasionado por desarrollo de aplicaciones web 👩🏾‍💻😍 con framework en javascript como Reac.JS,  Cuento con la voluntad de aportar mis conocimientos y habierto en aprender màs en este mundo. </p>
       </div>
       <div className="flex mt-7 flex-wrap text-3xl gap-6 ml-4">
 
