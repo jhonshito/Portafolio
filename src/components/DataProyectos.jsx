@@ -9,6 +9,7 @@ import proSix from "../img/desktop-design-completed.jpg"
 import proSeven from "../img/freetomage-api.png"
 import proEight from "../img/portafolio-jhon.png";
 import proNine from "../img/viajes.png"
+import proTen from "../img/todoAnime.png"
 import { useState } from "react"
 
 const DataProyectos = () => {
@@ -120,7 +121,19 @@ const DataProyectos = () => {
             repositorio : 'https://github.com/jhonshito/pruaba-frontend-02',
             tecnologiaOne : 'HTML5 - CSS3 - JavaScript - Glider.js - Google-Analitycs',
             border : 'border-via'
-        }
+        },
+
+        {
+            type : 'api', 
+            img : proTen,
+            name : 'Todo-Anime',
+            colorFondo : 'bg-gradient-to-r from-nav to-nav',
+            sombraColor : 'shadow-nav',
+            sitio : 'https://todoanime-jhon.netlify.app',
+            repositorio : 'https://github.com/jhonshito/todo-anime',
+            tecnologiaOne : 'React - Tailwind - Vite.js',
+            border : 'border-nav'
+        },
     ])
 
 

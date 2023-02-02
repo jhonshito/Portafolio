@@ -31,7 +31,8 @@ module.exports = {
         "form" : "#FF7A7A",
         "nuevo" : "#C5E4E7",
         "darkNuevo" : "#00494D",
-        'via' : "#314652"
+        'via' : "#314652",
+        "nav" : "#00051de8"
       }
     },
   },
