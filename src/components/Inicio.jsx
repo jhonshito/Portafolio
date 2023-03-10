@@ -2,11 +2,29 @@
 import fotoPortafolio from "../img/fotoPortafoli.jpg"
 import 'animate.css';
 import { AiFillHeart } from "react-icons/ai";
+import Typed from "typed.js";
+import { useEffect, useRef } from "react"
 // import "../styles/inicio.css"
 
 const Inicio = () => {
     const corcheteOne = '{'
     const corcheteTwo = '}'
+
+    const frontend = useRef(null);
+
+    useEffect(() => {
+      const typed = new Typed(frontend.current, {
+        strings: ['Frontend Developer'],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+      })
+
+      return () => {
+        typed.destroy();
+      }
+    },[])
+
   return (
     <div id="inicio" className="container mx-auto lg:flex pt-32">
         <div className="lg:ml-24">
@@ -17,9 +35,9 @@ const Inicio = () => {
             <h2 className="text-moradito">Soy Jhon Caicedo</h2>
             <span className="dark:text-white">{corcheteTwo}</span>
         </div>
-        <h2 id="habilidad" className="text-4xl text-dark font-bold text-center mt-7 md:text-5xl lg:text-left dark:text-white mx-auto md:mx-auto lg:mx-0 font-Rubik">Frontend Developer sii</h2>
+        <h2 id="habilidad" className="text-4xl text-dark h-14 flex justify-center font-bold text-center mt-7 md:text-5xl lg:text-left dark:text-white mx-auto md:mx-auto lg:mx-0 font-Rubik" ref={frontend}></h2>
         <div className="lg:text-left">
-          <p className="text-center mt-6 font-bold dark:text-white">Apasionado por el mundo del Desarrollo de Software.😍😜<AiFillHeart className="animate__animated animate__heartBeat animate__infinite infinite w-12 mx-auto mt-6 text-3xl" /></p>
+          <p className="text-center font-bold dark:text-white">Apasionado por el mundo del Desarrollo de Software.😍😜<AiFillHeart className="animate__animated animate__heartBeat animate__infinite infinite w-12 mx-auto mt-4 text-3xl" /></p>
         </div>
         </div>
         <img className="w-60 mx-auto mt-10 mb-10 md:w-1/2 lg:w-[40%]" src="https://robertfrontend.github.io/images/2-img.svg" alt="Esta es una imagen svg" />
