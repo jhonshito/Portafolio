@@ -7,12 +7,13 @@ import logoTailwind from "../icons/Tailwind_CSS_Logo.svg.png"
 import logoGit from "../icons/icons8-git-144.png"
 import logo from "../icons/physics.png"
 import logoSass from "../icons/icons8-sass-144.png"
+import logoRedux from "../icons/redux.png"
 
 const Habilidades = () => {
 
-  const logoArray = [logoJavascript, logoHtml, logoCss, logoBootstrap, logoTailwind, logoGit, logoSass, logo]
+  const logoArray = [logoJavascript, logoHtml, logoCss, logoBootstrap, logoTailwind, logoGit, logoSass, logo, logoRedux]
 
-  const nombreArray = ['JavaScrip', 'HTML5', 'CSS3', 'BOOTSTRAP', 'TAILWIND CSS', 'GIT', 'SASS', 'REACT JS']
+  const nombreArray = ['JavaScrip', 'HTML5', 'CSS3', 'BOOTSTRAP', 'TAILWIND CSS', 'GIT', 'SASS', 'REACT JS', 'REDUX']
 
   return (
     <section id="habilidades" className="mb-10 lg:container lg:mx-auto pt-32">

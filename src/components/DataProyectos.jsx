@@ -10,6 +10,7 @@ import proSeven from "../img/freetomage-api.png"
 import proEight from "../img/portafolio-jhon.png";
 import proNine from "../img/viajes.png"
 import proTen from "../img/todoAnime.png"
+import proEleven from "../img/pokeApi.png"
 import { useState } from "react"
 
 const DataProyectos = () => {
@@ -132,6 +133,18 @@ const DataProyectos = () => {
             sitio : 'https://todoanime-jhon.netlify.app',
             repositorio : 'https://github.com/jhonshito/todo-anime',
             tecnologiaOne : 'React - Tailwind - Vite.js',
+            border : 'border-nav'
+        },
+
+        {
+            type : 'api', 
+            img : proEleven,
+            name : 'Poke-Api',
+            colorFondo : 'bg-gradient-to-r from-transparente to-transparente',
+            sombraColor : 'shadow-white',
+            sitio : 'https://pokepratica.netlify.app',
+            repositorio : 'https://github.com/jhonshito/pokeApi',
+            tecnologiaOne : 'React - CSS - Redux - Vite.js',
             border : 'border-nav'
         },
     ])
