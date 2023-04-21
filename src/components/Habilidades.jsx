@@ -8,12 +8,14 @@ import logoGit from "../icons/icons8-git-144.png"
 import logo from "../icons/physics.png"
 import logoSass from "../icons/icons8-sass-144.png"
 import logoRedux from "../icons/redux.png"
+import logoNode from "../icons/node-mas.png";
+import logoMongo from '../icons/moongo.png'
 
 const Habilidades = () => {
 
-  const logoArray = [logoJavascript, logoHtml, logoCss, logoBootstrap, logoTailwind, logoGit, logoSass, logo, logoRedux]
+  const logoArray = [logoJavascript, logoHtml, logoCss, logoBootstrap, logoTailwind, logoGit, logoSass, logoNode, logoMongo, logo, logoRedux,]
 
-  const nombreArray = ['JavaScrip', 'HTML5', 'CSS3', 'BOOTSTRAP', 'TAILWIND CSS', 'GIT', 'SASS', 'REACT JS', 'REDUX']
+  const nombreArray = ['JavaScrip', 'HTML5', 'CSS3', 'BOOTSTRAP', 'TAILWIND CSS', 'GIT', 'SASS', 'NODE JS', 'MONGODB', 'REACT JS', 'REDUX',]
 
   return (
     <section id="habilidades" className="mb-10 lg:container lg:mx-auto pt-32">
@@ -25,7 +27,7 @@ const Habilidades = () => {
         {
           logoArray.map((item, index )=> (
             <div key={index} className="w-28 py-7">
-              <img className="w-[60px] mx-auto contrast-200" src={item} alt={`Este es el lgo de ${nombreArray[index]}`} />
+              <img className="w-[70px] mx-auto contrast-200" src={item} alt={`Este es el lgo de ${nombreArray[index]}`} />
               <p className="text-center font-bold text-white mt-3">{nombreArray[index]}</p>
             </div>
           ))

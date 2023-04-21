@@ -23,7 +23,7 @@ const Contacto = () => {
 
           <div className='lg:flex text-white text-lg grid text-center mt-4 lg:justify-evenly'>
             <p className=''>2022 Jhon Caicedo @Creador❤😍👩🏾‍💻😜</p>
-            <p>Que viva el desarrollo de software (siiiiiiiiii)😘</p>
+            <p>Que viva el desarrollo de software (💛💙💔)😘</p>
           </div>
         </footer>
     </>

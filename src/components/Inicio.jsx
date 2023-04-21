@@ -14,7 +14,7 @@ const Inicio = () => {
 
     useEffect(() => {
       const typed = new Typed(frontend.current, {
-        strings: ['Frontend Developer'],
+        strings: ['Full stack Developer', 'Frontend Developer', 'Backend Developer'],
         typeSpeed: 50,
         backSpeed: 50,
         loop: true,
@@ -31,8 +31,8 @@ const Inicio = () => {
         <img className="w-40 h-40 mx-auto rounded-full" src={fotoPortafolio} alt="Esta es mi foto" />
         <div className="flex mt-10 text-2xl font-bold justify-center items-center">
             <span className="dark:text-white">{corcheteOne}</span>
-            <h2 className="mr-3 dark:text-white">Hola👋🏾,</h2>
-            <h2 className="text-moradito">Soy Jhon Caicedo</h2>
+            <h2 className="mr-3 dark:text-white uppercase">Hola👋🏾,</h2>
+            <h2 className="text-moradito uppercase">Soy Jhon Caicedo</h2>
             <span className="dark:text-white">{corcheteTwo}</span>
         </div>
         <h2 id="habilidad" className="text-4xl text-dark h-14 flex justify-center font-bold text-center mt-7 md:text-5xl lg:text-left dark:text-white mx-auto md:mx-auto lg:mx-0 font-Rubik" ref={frontend}></h2>

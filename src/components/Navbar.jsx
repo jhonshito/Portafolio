@@ -9,11 +9,13 @@ const Navbar = () => {
   const [animacion, setAnimacion] = useState('');
   const [sobreMi, setSobreMi] = useState('');
   const [menuOculto, setMenuOculto] = useState('');
+  const body = document.body
 
   const handleOpen = () => {
     setOcultar('');
     setMenuOculto('hidden')
     setAnimacion('animate__animated animate__fadeInTopRight')
+    body.style.overflowY = 'hidden'
   };
 
   const handleOcultar = () => {
@@ -22,6 +24,7 @@ const Navbar = () => {
     },300)
     setAnimacion('animate__animated animate__fadeOutTopRight')
     setMenuOculto('')
+    body.style.overflowY = 'auto'
   };
 
   const handleSobreMi = (dato) => {
@@ -30,26 +33,31 @@ const Navbar = () => {
       case '#inicio':
         setSobreMi(dato);
         setMenuOculto('');
+        body.style.overflowY = 'auto'
       break;
 
       case '#descripcion':
         setSobreMi(dato);
         setMenuOculto('');
+        body.style.overflowY = 'auto'
       break;
 
       case '#habilidades':
         setSobreMi(dato);
         setMenuOculto('');
+        body.style.overflowY = 'auto'
       break;
 
       case '#proyectos':
         setSobreMi(dato);
         setMenuOculto('');
+        body.style.overflowY = 'auto'
       break;
 
       case '#conctato':
         setSobreMi(dato);
         setMenuOculto('');
+        body.style.overflowY = 'auto'
       break;
     }
     setOcultar('hidden')
